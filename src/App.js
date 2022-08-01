@@ -10,6 +10,7 @@ import { GithubState } from './context/github/GithubState';
 
 
 function App() {
+  console.log('hello');
   return (
     <GithubState>
       <AlertState>
